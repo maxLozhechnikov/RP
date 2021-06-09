@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -6,6 +7,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+=======
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+>>>>>>> Stashed changes
 
 namespace Valuator.Pages
 {
@@ -17,6 +23,7 @@ namespace Valuator.Pages
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
+<<<<<<< Updated upstream
         private readonly ILogger<ErrorModel> _logger;
 
         public ErrorModel(ILogger<ErrorModel> logger)
@@ -24,9 +31,15 @@ namespace Valuator.Pages
             _logger = logger;
         }
 
+=======
+>>>>>>> Stashed changes
         public void OnGet()
         {
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
         }
     }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,3 +23,13 @@ namespace Valuator.Pages
         }
     }
 }
+=======
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace Valuator.Pages
+{
+    public class About : PageModel
+    {
+    }
+}
+>>>>>>> Stashed changes

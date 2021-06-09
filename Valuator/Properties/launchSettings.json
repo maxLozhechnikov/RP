@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 ﻿{
+=======
+﻿
+{
+>>>>>>> Stashed changes
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
@@ -18,4 +23,8 @@
       }
     }
   }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
